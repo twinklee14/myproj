@@ -1,0 +1,42 @@
+body {
+  font-family: 'Annai MN', 'Times New Roman', Times, serif, sans-serif;
+  background: #a33c55;
+  color: #a33c55;
+  padding: 2.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.container {
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  max-width:800px;
+}
+
+input, select, button {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #060606;
+  color: rgb(253, 251, 251);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a33c55;
+}
+
+#watchlist li {
+  margin: 0.5rem 0;
+}
+
+.hidden {
+  display: none;
+}
